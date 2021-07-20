@@ -3,7 +3,7 @@
 This is my implementation in Fortran 90 for solving homogeneous Laplace equation with Dirichlet boundary condition and the boundary is a parametrized smooth closed curve. This set of code are ongoing work and to be further developed to solve the same boundary value problem where the boundary curve has corners.
 
 Instructions for Linux:
-  1. Make sure that there are libraries BLAS and LAPACK. For example, install [OpenBLAS](https://www.openblas.net/).
+  1. Make sure that there is fortran compiler, e.g. **gfortran**, and the numerical linear algebra libraries BLAS and LAPACK. For example, install [OpenBLAS](https://www.openblas.net/).
   
   2. Put all files **legendre.f90**, **disc.f90**, **matrix.f90** in the same directory.
 
