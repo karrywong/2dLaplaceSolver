@@ -10,3 +10,6 @@ Instructions for Linux:
   3. Compile on terminal using `gfortran -lblas -llapack matrix.f90 disc.f90 legendre.f90` and run executable **a.out**.
  
 We can select different test cases in the file **matrix.f90** by (un)commenting the corresponding lines of code.
+
+# Acknowledgement 
+This work is conducted under the guidance of [James Bremer](https://www.utsc.utoronto.ca/cms/james-bremer) and is supported by his research grant.
